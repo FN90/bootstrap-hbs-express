@@ -4,4 +4,8 @@ A nodeJS app powered by [Express.js](https://github.com/expressjs/express), [han
 <BR>
 It comes loaded with Express, Bootstrap, and hbs (an express view engine for Handlebars).
 <BR>
+<<<<<<< HEAD
 It can be used as a point of start for any new project.
+=======
+It can be used as a point of start for any new project.
+>>>>>>> 9a12cf238a5b402452ecfe1b8af05ef13fb6a989
