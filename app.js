@@ -28,85 +28,85 @@ app.get('/', function(req, res) {
 
 // about page
 app.get("/about",function(req,res){
-  	res.render('about');
+  	res.render('pages/about');
 });
 
 // services page
 app.get("/services",function(req,res){
-  	res.render('services');
+  	res.render('pages/services');
 });
 
 // contact page
 app.get("/contact",function(req,res){
-  	res.render('contact');
+  	res.render('pages/contact');
 });
 
 // portfolio-1 page
 app.get("/portfolio-1",function(req,res){
-  	res.render('portfolio-1');
+  	res.render('pages/portfolio-1');
 });
 
 // portfolio-2 page
 app.get("/portfolio-2",function(req,res){
-  	res.render('portfolio-2');
+  	res.render('pages/portfolio-2');
 });
 
 // portfolio-3 page
 app.get("/portfolio-3",function(req,res){
-  	res.render('portfolio-3');
+  	res.render('pages/portfolio-3');
 });
 
 // portfolio-4 page
 app.get("/portfolio-4",function(req,res){
-  	res.render('portfolio-4');
+  	res.render('pages/portfolio-4');
 });
 
 // portfolio-single-item page
 app.get("/portfolio-single-item",function(req,res){
-  	res.render('portfolio-single-item');
+  	res.render('pages/portfolio-single-item');
 });
 
 // blog-home-1 page
 app.get("/blog-home-1",function(req,res){
-  	res.render('blog-home-1');
+  	res.render('pages/blog-home-1');
 });
 
 // blog-home-2 page
 app.get("/blog-home-2",function(req,res){
-  	res.render('blog-home-2');
+  	res.render('pages/blog-home-2');
 });
 
 
 // blog-post page
 app.get("/blog-post",function(req,res){
-  	res.render('blog-post');
+  	res.render('pages/blog-post');
 });
 
 
 // full-width page
 app.get("/full-width",function(req,res){
-  	res.render('full-width');
+  	res.render('pages/full-width');
 });
 
 
 // sidebar page
 app.get("/sidebar",function(req,res){
-  	res.render('sidebar');
+  	res.render('pages/sidebar');
 });
 
 // faq page
 app.get("/faq",function(req,res){
-  	res.render('faq');
+  	res.render('pages/faq');
 });
 
 // faq page
 app.get("/404",function(req,res){
-  	res.render('404');
+  	res.render('pages/404');
 });
 
 // faq page
 app.get("/pricing",function(req,res){
-  	res.render('pricing');
+  	res.render('pages/pricing');
 });
 
 
